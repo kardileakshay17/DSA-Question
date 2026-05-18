@@ -7,10 +7,4 @@ while num>0:
     num=num//10
 '''
 # conut of a number
-n=5473
-num=n
-conut=0
-while num>0:
-    conut+=1
-    num= num//10
-print(conut)   
+  
