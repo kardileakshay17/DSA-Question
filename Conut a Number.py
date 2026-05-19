@@ -4,5 +4,5 @@ num=n
 conut=0
 while num>0:
     conut+=1
-    num= num//10
-print(conut) 
+    num=num//10
+print(conut)
