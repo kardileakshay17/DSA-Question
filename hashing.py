@@ -30,8 +30,8 @@ for nums in m:
 '''        
 #  hashing a python character list and then  find the frequency of the character in the list
 
-# A="abdcdasbde"
-# B=["a","b","c","d"]
+# A="abdcdAsbdeCWEQQQQQQ3RWDWER"
+# B=["a","b","c","d",'A','C','Q','R','W',]
 # hash_list=[2,2,3,1,0,0,1,0,1]
 
 # freq_dict={}
@@ -45,13 +45,14 @@ for nums in m:
 #     else:
 #         print(0)
 
-A="azyxyyzaaa"
+A="azyxyyzaa"
 B=['a','b','y','x']
 hash_list=[0] * 26
 for ch in A:
     Ascii_val=ord(ch)
     index=Ascii_val-97
     hash_list[index]+=1
+    print(hash_list)
      
 for ch in B:
     Ascii_val=ord(ch)
